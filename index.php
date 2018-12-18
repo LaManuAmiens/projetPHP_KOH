@@ -7,7 +7,7 @@ $xml = simplexml_load_file('source.xml') or die('Erreur : impossible de créer l
 ?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
-<head>
+ <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <script src="jquery-3.2.1.js"></script>
@@ -37,7 +37,7 @@ les infos que l'on veut récupérer.
     <nav>
       <div class="logo-section">
         <a class="logo">OcorDo</a>
-        <button class="hb-button"><i class="=fa fa-bars"></i></button>
+        <button class="hb-button"><i class='fa fa-bars'></i></button>
       </div>
       <ul>
         <li><a href="1.html"><?= $xml->page[0]->menu ?></a></li>
